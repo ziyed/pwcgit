@@ -22,3 +22,6 @@ git clone repository-url (Checkout the remote git project)
 git remote -v (See original source url)
 git fetch origin (Will download but not merge)
 git pull origin ( will download and merge altogether)
+
+Thanks,
+Ziyed
