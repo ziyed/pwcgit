@@ -1,0 +1,20 @@
+Git Commands:
+
+git init
+git status (Check status)
+git add filename / git add . (Add all) / git add *.html (only add html files)
+git commit -m "first commit"
+git log
+touch gitignore (Create a .gitingore file)
+git branch MyBranch (Create Own Branch)
+git checkout MyBranch (select my created branch for work/change)
+git merge MyBranch (Merge my new branch with master branch)
+git merge master (merge master with branches)
+git stash (save the new file created yet for future commit)
+git stash apply (Commit the stash files)
+git remote (view remote repositories)
+git clone repository-url (checkout the remote git project)
+git remote -v (see original source url)
+git fetch origin
+git pull origin ( will download and merge altogether)
+git push origin master (Push all files to origin master)
