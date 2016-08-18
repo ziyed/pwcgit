@@ -1,20 +1,22 @@
-Git Commands:
+Useful Git Commands with short hints of uses:
 
-git init
-git status (Check status)
-git add filename / git add . (Add all) / git add *.html (only add html files)
-git commit -m "first commit"
-git log
-touch gitignore (Create a .gitingore file)
+git init (Initialize your git project directory)
+git status (Check current status)
+git add filename (Add single file)
+git add . (Add all new file) 
+git add *.html (Only add html files that is newly created)
+git commit -m "first commit"  (Commit to repository after add with a comment)
+git push origin master (Push all files to origin master)
+git log (Check log)
+touch gitignore (Create a .gitingore file, enter a file name will be ignored while adding/updating)
 git branch MyBranch (Create Own Branch)
-git checkout MyBranch (select my created branch for work/change)
+git checkout MyBranch (Select a branch for work/change)
 git merge MyBranch (Merge my new branch with master branch)
 git merge master (merge master with branches)
 git stash (save the new file created yet for future commit)
-git stash apply (Commit the stash files)
+git stash apply (Commit the stash file/files)
 git remote (view remote repositories)
-git clone repository-url (checkout the remote git project)
-git remote -v (see original source url)
-git fetch origin
+git clone repository-url (Checkout the remote git project)
+git remote -v (See original source url)
+git fetch origin (Will download but not merge)
 git pull origin ( will download and merge altogether)
-git push origin master (Push all files to origin master)
