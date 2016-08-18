@@ -1,4 +1,4 @@
-Useful Git Commands with short hints of uses:
+Useful Git Commands listed with its uses briefly
 
 git init (Initialize your git project directory)
 git status (Check current status)
